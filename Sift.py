@@ -12,7 +12,7 @@ def draw_circle(w,r):
     y = r*sin(m) + w[1]
     plot(x, y, 'b', linewidth=2)
 
-file = 'xiaoshizi1.png'
+file = 'timg.png'
 image = array(Image.open(file).convert('L'))
 if file[-3:] != 'pgm':
     image_1 = Image.open(file).convert('L')
